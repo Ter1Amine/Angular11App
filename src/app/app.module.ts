@@ -11,6 +11,9 @@ import { ComposantsMenuComponent } from './composants/composants-menu/composants
 import { ComposantsHeaderComponent } from './composants/composants-header/composants-header.component';
 import { PageArticleComponent } from './page/article/page-article/page-article.component';
 import { ComposantArticleComponent } from './composants/composant-article/composant-article.component';
+import { ComposantsPaginationComponent } from './composants/composants-pagination/composants-pagination.component';
+import { ComposantsBoutonActionComponent } from './composants/composants-bouton-action/composants-bouton-action.component';
+import { NouvelArticleComponent } from './page/article/nouvel-article/nouvel-article.component';
 
 
 
@@ -25,6 +28,9 @@ import { ComposantArticleComponent } from './composants/composant-article/compos
     ComposantsHeaderComponent,
     PageArticleComponent,
     ComposantArticleComponent,
+    ComposantsPaginationComponent,
+    ComposantsBoutonActionComponent,
+    NouvelArticleComponent,
 
   ],
   imports: [

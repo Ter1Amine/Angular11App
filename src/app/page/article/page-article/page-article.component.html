@@ -3,18 +3,23 @@
     <div class="col-md-8">
       <h1>Liste des articles</h1>
     </div>
-    <div class="col-md-4 text-right">
-      les boutons
+    <div class="col-md-4 text-right mt-3 mb-2">
+      <div>
+        <app-composants-bouton-action></app-composants-bouton-action>
+      </div>
     </div>
   </div>
-  <div class="card row ml-3 mr-3 ">
+  <div class="card row ml-2 mr-2 mb-1 col-md-12">
     <app-composant-article></app-composant-article>
     <app-composant-article></app-composant-article>
     <app-composant-article></app-composant-article>
     <app-composant-article></app-composant-article>
     <app-composant-article></app-composant-article>
   </div>
-  <div class="card row ml-3 text-center">
-    pagination
+  <div class="row mb-1">
+    <div class="col-md-12 pagination justify-content-center">
+      <app-composants-pagination></app-composants-pagination>
+    </div>
+
   </div>
 </div>

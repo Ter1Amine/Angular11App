@@ -5,6 +5,7 @@ import {PageInscriptionComponent} from './page/page-inscription/page-inscription
 import {PageDashboardComponent} from './page/page-dashboard/page-dashboard.component';
 import {PageStatistiquesComponent} from './page/page-statistiques/page-statistiques.component';
 import {PageArticleComponent} from './page/article/page-article/page-article.component';
+import {NouvelArticleComponent} from './page/article/nouvel-article/nouvel-article.component';
 
 // @ts-ignore
 const routes: Routes = [
@@ -28,7 +29,12 @@ const routes: Routes = [
       {
         path: 'articles',
         component: PageArticleComponent,
+      },
+      {
+        path: 'nouvelarticle',
+        component: NouvelArticleComponent,
       }
+
 
     ]
   }
