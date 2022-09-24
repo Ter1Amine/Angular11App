@@ -8,8 +8,10 @@ import { PageInscriptionComponent } from './page/page-inscription/page-inscripti
 import { PageDashboardComponent } from './page/page-dashboard/page-dashboard.component';
 import { PageStatistiquesComponent } from './page/page-statistiques/page-statistiques.component';
 import { ComposantsMenuComponent } from './composants/composants-menu/composants-menu.component';
-import { HeaderComponent } from './composants/header/header.component';
 import { ComposantsHeaderComponent } from './composants/composants-header/composants-header.component';
+import { PageArticleComponent } from './page/article/page-article/page-article.component';
+import { ComposantArticleComponent } from './composants/composant-article/composant-article.component';
+
 
 
 @NgModule({
@@ -20,8 +22,10 @@ import { ComposantsHeaderComponent } from './composants/composants-header/compos
     PageDashboardComponent,
     PageStatistiquesComponent,
     ComposantsMenuComponent,
-    HeaderComponent,
-    ComposantsHeaderComponent
+    ComposantsHeaderComponent,
+    PageArticleComponent,
+    ComposantArticleComponent,
+
   ],
   imports: [
     BrowserModule,
