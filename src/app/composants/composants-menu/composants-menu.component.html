@@ -1,4 +1,4 @@
-<div class="accordion">
+<div id="accordion">
   <div class="card" *ngFor="let menu of menuProperties">
     <div class="card-header" id="menu{{menu.id}}">
       <h2 class="mb-0">
@@ -10,7 +10,7 @@
       </h2>
     </div>
     <div id="collapse{{menu.id}}" class="collapse" [attr.aria-labelledby]="'menu' + menu.id"
-         [attr.data-parent]="'#menu'+ menu.id"
+         data-parent= "#accordion"
 
     *ngFor="let sousMenu of menu.sousMenu">
       <div class="card" style="width: 18rem;">

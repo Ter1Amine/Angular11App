@@ -47,7 +47,7 @@ export class ComposantsMenuComponent implements OnInit {
           id: '2',
           titre: 'Mouvement de stock',
           icon: 'fa-brands fa-stack-overflow',
-          url: '',
+          url: 'mvtStock',
         }
       ]
     },
@@ -61,7 +61,7 @@ export class ComposantsMenuComponent implements OnInit {
           id: '31',
           titre: 'Clients',
           icon: 'fa-solid fa-users',
-          url: '',
+          url: 'clients',
         },
         {
           id: '32',
@@ -82,7 +82,7 @@ export class ComposantsMenuComponent implements OnInit {
           id: '41',
           titre: 'Fournisseurs',
           icon: 'fa-solid fa-users',
-          url: '',
+          url: 'fournisseurs',
         },
         {
           id: '42',
