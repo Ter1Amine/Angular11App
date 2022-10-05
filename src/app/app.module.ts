@@ -23,6 +23,9 @@ import { PageClientComponent } from './page/client/page-client/page-client.compo
 import { DetailsFournisseurComponent } from './composants/details-fournisseur/details-fournisseur.component';
 import { PageFournisseursComponent } from './page/fournisseur/page-fournisseurs/page-fournisseurs.component';
 import { NouveauCltFrsComponent } from './composants/nouveau-clt-frs/nouveau-clt-frs.component';
+import { DetailsCmdCltFrsComponent } from './composants/details-cmd-clt-frs/details-cmd-clt-frs.component';
+import { DetailsCmdComponent } from './composants/details-cmd/details-cmd.component';
+import { PageCmdCltFrsComponent } from './page/page-cmd-clt-frs/page-cmd-clt-frs.component';
 
 
 
@@ -48,7 +51,10 @@ import { NouveauCltFrsComponent } from './composants/nouveau-clt-frs/nouveau-clt
     PageClientComponent,
     DetailsFournisseurComponent,
     PageFournisseursComponent,
-    NouveauCltFrsComponent
+    NouveauCltFrsComponent,
+    DetailsCmdCltFrsComponent,
+    DetailsCmdComponent,
+    PageCmdCltFrsComponent
 
 
   ],

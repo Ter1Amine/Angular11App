@@ -11,6 +11,7 @@ import {DetailsClientComponent} from './composants/details-client/details-client
 import {PageClientComponent} from './page/client/page-client/page-client.component';
 import {PageFournisseursComponent} from './page/fournisseur/page-fournisseurs/page-fournisseurs.component';
 import {NouveauCltFrsComponent} from './composants/nouveau-clt-frs/nouveau-clt-frs.component';
+import {PageCmdCltFrsComponent} from './page/page-cmd-clt-frs/page-cmd-clt-frs.component';
 
 // @ts-ignore
 const routes: Routes = [
@@ -58,11 +59,15 @@ const routes: Routes = [
       {
         path: 'nouveauFournisseur',
         component: NouveauCltFrsComponent,
+      },
+      {
+        path: 'cmdfournisseur',
+        component: PageCmdCltFrsComponent,
+      },
+      {
+        path: 'cmdclient',
+        component: PageCmdCltFrsComponent
       }
-
-
-
-
     ]
   }
 

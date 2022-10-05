@@ -67,7 +67,7 @@ export class ComposantsMenuComponent implements OnInit {
           id: '32',
           titre: 'Commandes clients',
           icon: 'fa-solid fa-cart-shopping',
-          url: '',
+          url: 'cmdclient',
         }
 
       ]
@@ -88,7 +88,7 @@ export class ComposantsMenuComponent implements OnInit {
           id: '42',
           titre: 'Commandes fournisseurs',
           icon: 'fa-solid fa-cart-shopping',
-          url: '',
+          url: 'cmdfournisseur',
         }
 
       ]
